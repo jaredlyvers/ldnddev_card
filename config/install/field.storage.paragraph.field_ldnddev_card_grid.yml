@@ -1,0 +1,30 @@
+uuid: 6c846604-f035-449e-9cde-344385798b3f
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_ldnddev_card_grid
+field_name: field_ldnddev_card_grid
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '-two -c6x6'
+      label: 'Two Equal Columns - [______][______]'
+    -
+      value: '-three -c4x4x4'
+      label: 'Three Equal Columns - [____][____][____]'
+    -
+      value: '-four -c3x3x3x3'
+      label: 'Four Equal Columns - [___][___][___][___]'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

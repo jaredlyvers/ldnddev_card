@@ -1,0 +1,42 @@
+uuid: 0c3a18f6-9342-4c68-b455-2bb08dcea71a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_card.field_ldnddev_card_css
+    - field.field.paragraph.ldnddev_card.field_ldnddev_card_grid
+    - field.field.paragraph.ldnddev_card.field_ldnddev_card_item
+    - paragraphs.paragraphs_type.ldnddev_card
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.ldnddev_card.default
+targetEntityType: paragraph
+bundle: ldnddev_card
+mode: default
+content:
+  field_ldnddev_card_css:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ldnddev_card_grid:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_ldnddev_card_item:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

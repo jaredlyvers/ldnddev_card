@@ -1,0 +1,23 @@
+uuid: c2084bec-1ce9-4f53-9d40-85537d1b1448
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_card_link_type
+    - paragraphs.paragraphs_type.ldnddev_card_item
+  module:
+    - options
+id: paragraph.ldnddev_card_item.field_ldnddev_card_link_type
+field_name: field_ldnddev_card_link_type
+entity_type: paragraph
+bundle: ldnddev_card_item
+label: 'ldnddev Card Link Type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '-internal'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,23 @@
+uuid: 6017bd17-d7a5-4ecd-b45d-2af09cb00a8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_card_link_url
+    - paragraphs.paragraphs_type.ldnddev_card_item
+  module:
+    - link
+id: paragraph.ldnddev_card_item.field_ldnddev_card_link_url
+field_name: field_ldnddev_card_link_url
+entity_type: paragraph
+bundle: ldnddev_card_item
+label: 'ldnddev Card Link URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

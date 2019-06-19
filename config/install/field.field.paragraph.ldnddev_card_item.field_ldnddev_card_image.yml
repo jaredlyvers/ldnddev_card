@@ -1,0 +1,38 @@
+uuid: 31c93c88-868f-4165-88c6-8e1746389085
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_card_image
+    - paragraphs.paragraphs_type.ldnddev_card_item
+  module:
+    - image
+id: paragraph.ldnddev_card_item.field_ldnddev_card_image
+field_name: field_ldnddev_card_image
+entity_type: paragraph
+bundle: ldnddev_card_item
+label: 'ldnddev Card Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'assets/imgs/cards/[date:custom:Y]-[date:custom:m]'
+  file_extensions: jpg
+  max_filesize: '400 KB'
+  max_resolution: 640x640
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

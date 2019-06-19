@@ -1,0 +1,9 @@
+uuid: dbb6f45d-69f0-4883-8fa5-50eca574d630
+langcode: en
+status: true
+dependencies: {  }
+id: ldnddev_card
+label: 'ldnddev Card'
+icon_uuid: null
+description: 'This bundle is used to add a Card component that contain content and actions about a single subject to the page.'
+behavior_plugins: {  }
