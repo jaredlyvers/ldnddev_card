@@ -1,0 +1,9 @@
+uuid: 19fbfaec-18f6-46a1-9a94-a4a6bbebb5df
+langcode: en
+status: true
+dependencies: {  }
+id: ldnddev_card_item
+label: 'ldnddev Card Item'
+icon_uuid: null
+description: 'This bundle is used to add a Card Item to the Card bundle.'
+behavior_plugins: {  }

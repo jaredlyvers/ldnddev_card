@@ -1,0 +1,45 @@
+uuid: 899a0f5c-7980-4811-8e32-6eb51477d88c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_card.field_ldnddev_card_css
+    - field.field.paragraph.ldnddev_card.field_ldnddev_card_grid
+    - field.field.paragraph.ldnddev_card.field_ldnddev_card_item
+    - paragraphs.paragraphs_type.ldnddev_card
+  module:
+    - paragraphs
+id: paragraph.ldnddev_card.default
+targetEntityType: paragraph
+bundle: ldnddev_card
+mode: default
+content:
+  field_ldnddev_card_css:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_card_grid:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_ldnddev_card_item:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

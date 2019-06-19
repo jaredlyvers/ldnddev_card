@@ -1,0 +1,23 @@
+uuid: 9bae278a-d17e-4de6-b94b-a906ed0622d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_card_grid
+    - paragraphs.paragraphs_type.ldnddev_card
+  module:
+    - options
+id: paragraph.ldnddev_card.field_ldnddev_card_grid
+field_name: field_ldnddev_card_grid
+entity_type: paragraph
+bundle: ldnddev_card
+label: 'ldnddev Card Grid'
+description: 'The grid options allow you to choose how many items will be in each row.'
+required: true
+translatable: false
+default_value:
+  -
+    value: '-three -c4x4x4'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

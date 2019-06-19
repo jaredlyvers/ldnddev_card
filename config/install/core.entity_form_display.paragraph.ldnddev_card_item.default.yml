@@ -1,0 +1,70 @@
+uuid: 0dcc1528-e3fa-418e-8221-6ed857135783
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ldnddev_card_item.field_ldnddev_card_copy
+    - field.field.paragraph.ldnddev_card_item.field_ldnddev_card_image
+    - field.field.paragraph.ldnddev_card_item.field_ldnddev_card_link_title
+    - field.field.paragraph.ldnddev_card_item.field_ldnddev_card_link_type
+    - field.field.paragraph.ldnddev_card_item.field_ldnddev_card_link_url
+    - field.field.paragraph.ldnddev_card_item.field_ldnddev_card_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.ldnddev_card_item
+  module:
+    - image
+    - link
+id: paragraph.ldnddev_card_item.default
+targetEntityType: paragraph
+bundle: ldnddev_card_item
+mode: default
+content:
+  field_ldnddev_card_copy:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_card_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_ldnddev_card_link_title:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ldnddev_card_link_type:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_ldnddev_card_link_url:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_ldnddev_card_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

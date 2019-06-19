@@ -1,0 +1,19 @@
+uuid: 6e838e9f-45c2-46a6-93c0-df15c6ba74fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ldnddev_card_copy
+    - paragraphs.paragraphs_type.ldnddev_card_item
+id: paragraph.ldnddev_card_item.field_ldnddev_card_copy
+field_name: field_ldnddev_card_copy
+entity_type: paragraph
+bundle: ldnddev_card_item
+label: 'ldnddev Card Copy'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

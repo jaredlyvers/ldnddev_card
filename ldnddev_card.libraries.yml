@@ -1,0 +1,11 @@
+ldnddev_card:
+  css:
+    component:
+      assets/css/ldnddev_card.css:
+        minified: false
+  js:
+    assets/js/ldnddev_card.js:
+      minified: false
+  dependencies:
+    - core/jquery
+    - core/drupal

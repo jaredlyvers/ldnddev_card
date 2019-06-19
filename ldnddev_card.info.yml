@@ -1,0 +1,7 @@
+name: ldnddev Card Paragraph Bundle
+type: module
+description: A reusable Card Paragraph bundle.
+core: 8.x
+package: Paragraphs
+dependencies:
+  - paragraphs
