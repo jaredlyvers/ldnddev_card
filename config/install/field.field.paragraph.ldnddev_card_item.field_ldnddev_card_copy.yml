@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_card_copy
     - paragraphs.paragraphs_type.ldnddev_card_item
+_core:
+  default_config_hash: NYkJ3jfK4ZPZkrypBE_ulww9pJ3ArOdFbVUeJNN4jzU
 id: paragraph.ldnddev_card_item.field_ldnddev_card_copy
 field_name: field_ldnddev_card_copy
 entity_type: paragraph
 bundle: ldnddev_card_item
-label: 'ldnddev Card Copy'
+label: 'Card Copy'
 description: ''
 required: false
 translatable: false

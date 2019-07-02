@@ -5,6 +5,8 @@ dependencies:
   module:
     - options
     - paragraphs
+_core:
+  default_config_hash: NgTqoudONrlZV1r6bj-_rRci-s3nT6XW-POrSocLgRM
 id: paragraph.field_ldnddev_card_grid
 field_name: field_ldnddev_card_grid
 entity_type: paragraph

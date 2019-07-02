@@ -2,6 +2,8 @@ uuid: dbb6f45d-69f0-4883-8fa5-50eca574d630
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: XtPmfnimX_8mCjGkLRpJcNOU8wTqIkIsV_yQ1KokGgo
 id: ldnddev_card
 label: 'ldnddev Card'
 icon_uuid: null

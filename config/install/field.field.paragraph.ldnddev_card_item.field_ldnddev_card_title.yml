@@ -5,11 +5,13 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_card_title
     - paragraphs.paragraphs_type.ldnddev_card_item
+_core:
+  default_config_hash: OUfHxVbYZ8HCoK2VJuLvlAjSBJ5gibQx4DYoVvC7KO8
 id: paragraph.ldnddev_card_item.field_ldnddev_card_title
 field_name: field_ldnddev_card_title
 entity_type: paragraph
 bundle: ldnddev_card_item
-label: 'ldnddev Card Title'
+label: 'Card Title'
 description: ''
 required: false
 translatable: false

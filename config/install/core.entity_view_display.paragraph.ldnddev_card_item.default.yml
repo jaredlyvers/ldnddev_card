@@ -14,6 +14,8 @@ dependencies:
     - image
     - link
     - options
+_core:
+  default_config_hash: ki3WMSkcffx95TsSqzVCGZu1J7IMGe6kPBnKToFlEQs
 id: paragraph.ldnddev_card_item.default
 targetEntityType: paragraph
 bundle: ldnddev_card_item

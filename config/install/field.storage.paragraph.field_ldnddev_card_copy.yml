@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: 6Zx5VFssxbBi0mPC7KglITEL9xGbDIUEFwgn0jWBVMc
 id: paragraph.field_ldnddev_card_copy
 field_name: field_ldnddev_card_copy
 entity_type: paragraph

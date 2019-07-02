@@ -8,11 +8,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_card_item
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: AeEmeghIIYDZzU86X-kWAQCefQTVIsj7ZghZs_oP6Vw
 id: paragraph.ldnddev_card.field_ldnddev_card_item
 field_name: field_ldnddev_card_item
 entity_type: paragraph
 bundle: ldnddev_card
-label: 'ldnddev Card Item'
+label: 'Card Item'
 description: ''
 required: false
 translatable: false
@@ -76,7 +78,13 @@ settings:
       ldnddev_slider_image:
         weight: 35
         enabled: false
+      ldnddev_rich_text:
+        weight: 36
+        enabled: false
       ldnddev_slider_video:
         weight: 36
+        enabled: false
+      ldnddev_section:
+        weight: 37
         enabled: false
 field_type: entity_reference_revisions

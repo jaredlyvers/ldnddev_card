@@ -7,11 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_card_item
   module:
     - image
+_core:
+  default_config_hash: K5l8Y8KuaMLjRYx5KDtrePchpifhtv5PkXjHo-OrxdA
 id: paragraph.ldnddev_card_item.field_ldnddev_card_image
 field_name: field_ldnddev_card_image
 entity_type: paragraph
 bundle: ldnddev_card_item
-label: 'ldnddev Card Image'
+label: 'Card Image'
 description: ''
 required: false
 translatable: false

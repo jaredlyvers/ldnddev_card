@@ -5,6 +5,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - paragraphs
+_core:
+  default_config_hash: '-rQv0_SvgKGbhdz10RNCTu5S6s22-wpQMzC6X0kmwkQ'
 id: paragraph.field_ldnddev_card_item
 field_name: field_ldnddev_card_item
 entity_type: paragraph

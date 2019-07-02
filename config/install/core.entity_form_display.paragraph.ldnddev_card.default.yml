@@ -9,13 +9,15 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_card
   module:
     - paragraphs
+_core:
+  default_config_hash: PGptdK2aCC6P7RkDuHVM6t7UEA6eKfMHcdzBPvj1fAs
 id: paragraph.ldnddev_card.default
 targetEntityType: paragraph
 bundle: ldnddev_card
 mode: default
 content:
   field_ldnddev_card_css:
-    weight: 0
+    weight: 1
     settings:
       size: 60
       placeholder: ''
@@ -23,21 +25,28 @@ content:
     type: string_textfield
     region: content
   field_ldnddev_card_grid:
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_ldnddev_card_item:
-    type: entity_reference_paragraphs
-    weight: 2
+    type: paragraphs
+    weight: 0
     settings:
-      title: Paragraph
-      title_plural: Paragraphs
-      edit_mode: open
-      add_mode: dropdown
+      title: Card
+      title_plural: Cards
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: ldnddev_card_item
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
     third_party_settings: {  }
     region: content
 hidden:

@@ -7,11 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_card
   module:
     - options
+_core:
+  default_config_hash: NqqpCNG5w_FU5uMc1q4Cmo0_fbOkF-hY8yQtWAqFnIs
 id: paragraph.ldnddev_card.field_ldnddev_card_grid
 field_name: field_ldnddev_card_grid
 entity_type: paragraph
 bundle: ldnddev_card
-label: 'ldnddev Card Grid'
+label: 'Card Grid Layout'
 description: 'The grid options allow you to choose how many items will be in each row.'
 required: true
 translatable: false

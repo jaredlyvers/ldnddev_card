@@ -7,11 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.ldnddev_card_item
   module:
     - options
+_core:
+  default_config_hash: ZqzyyANBD8n4CJlkee46jBNzv48dj7cEh-2ayUdc3HE
 id: paragraph.ldnddev_card_item.field_ldnddev_card_link_type
 field_name: field_ldnddev_card_link_type
 entity_type: paragraph
 bundle: ldnddev_card_item
-label: 'ldnddev Card Link Type'
+label: 'Link Type'
 description: ''
 required: true
 translatable: false

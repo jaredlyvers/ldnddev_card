@@ -10,30 +10,32 @@ dependencies:
   module:
     - entity_reference_revisions
     - options
+_core:
+  default_config_hash: TVU_I39vCd_CNrWFzISxN-uw7hyTi7yM_28Km2Hpul8
 id: paragraph.ldnddev_card.default
 targetEntityType: paragraph
 bundle: ldnddev_card
 mode: default
 content:
   field_ldnddev_card_css:
-    weight: 0
-    label: above
+    weight: 1
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
   field_ldnddev_card_grid:
-    weight: 1
-    label: above
+    weight: 2
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    type: list_key
     region: content
   field_ldnddev_card_item:
     type: entity_reference_revisions_entity_view
-    weight: 2
-    label: above
+    weight: 0
+    label: hidden
     settings:
       view_mode: default
       link: ''

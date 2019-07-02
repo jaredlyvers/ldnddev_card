@@ -5,12 +5,14 @@ dependencies:
   config:
     - field.storage.paragraph.field_ldnddev_card_css
     - paragraphs.paragraphs_type.ldnddev_card
+_core:
+  default_config_hash: kP7Od-xKcsHWhIVlugezFxv7It_14AvoBARYU-QHxkw
 id: paragraph.ldnddev_card.field_ldnddev_card_css
 field_name: field_ldnddev_card_css
 entity_type: paragraph
 bundle: ldnddev_card
-label: 'ldnddev Card CSS'
-description: ''
+label: 'Custom CSS Class'
+description: 'Add your own custom CSS class.'
 required: false
 translatable: false
 default_value: {  }
